@@ -68,13 +68,14 @@ color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     font-size: 30px;
-
+    color: #FFFFFF;
     width: 224px;
     height: 96px;
     left: 614px;
     top: 504px;
     margin-right: 50%;
     margin-bottom: 50px;
+    padding: 20px;
 }
 .reservPlace {
     width: 304px;
@@ -158,4 +159,209 @@ color: #FFFFFF;
     border-top: 0.5px solid #C7C7C7;
     border-bottom: 0.5px solid #C7C7C7;;
     padding: 30px 0px 30px 0px;
+}
+
+/*Фотографии пакета*/
+.photoGallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    padding: 0;
+}
+.photoGallery span {
+    position: absolute;
+    width: 219px;
+    height: 24px;
+    left: 150px;
+    top: -50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #37373F;
+}
+
+.photoGallery img {
+    margin: 10px;
+}
+.allphotos {
+    position: absolute;
+    width: 166px;
+    height: 19px;
+    left: 671px;
+    top: 2027px;
+    margin-top: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+
+    color: #5286EC;
+}
+.bottomLine {
+    position: absolute;
+    width: 1139px;
+    height: 0px;
+    left: 190px;
+    top: 2123px;
+
+    border: 0.5px solid #C7C7C7;
+}
+.aboutUs {
+    display: flex;
+    position: absolute;
+    top: 2200px;
+    left: 170px;
+}
+.aboutOrg {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+
+color: #37373F;
+
+}
+.aboutOne {
+    position: absolute;
+    width: 384px;
+    height: 242px;
+    left: 0px;
+    top: 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #37373F;
+}
+.aboutOrgNext {
+    position: absolute;
+width: 126px;
+height: 19px;
+left: 100px;
+top: 290px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+
+color: #5286EC;
+
+}
+
+.aboutMe {
+    position: absolute;
+    width: 254px;
+    height: 24px;
+    left: 0;
+    top: 350px;
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+
+color: #37373F;
+}
+.aboutTwo {
+    position: absolute;
+    width: 384px;
+    height: 242px;
+    left: 0px;
+    top: 400px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #37373F;
+}
+.aboutOrgNext2 {
+    position: absolute;
+    width: 126px;
+    height: 19px;
+    left: 100px;
+    top: 540px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    
+    color: #5286EC;
+}
+.marinaBlock {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 2250px;
+    right: 100px;
+}
+.marinaAvatar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 139px;
+    height: 139px;
+}
+.marinaHeart {
+    position: absolute;
+width: 31px;
+height: 27px;
+right: 20px;
+top: 0;
+
+}
+.marinaList {
+    position: absolute;
+    list-style: none;
+    top: 170px;
+    left: -20px;
+}
+.marinaList li:first-child {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.marinaList li:nth-child(2) {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #37373F;
+}
+.marinaList li:last-child {
+    text-decoration: none;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #5286EC;
 }
