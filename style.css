@@ -29,7 +29,7 @@ span {
 .helicopter {
     background-image: url(img/helimain.png);
     position: absolute;
-    width: 1900px;
+    width: 1850px;
     height: 840px;
     left: -30%;
     top: 100px;
@@ -188,7 +188,7 @@ color: #FFFFFF;
 }
 
 .photoGallery img {
-    margin: 10px;
+    margin: 5px;
 }
 .allphotos {
     position: absolute;
