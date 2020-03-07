@@ -25,7 +25,7 @@ span {
     padding: 30px 10px 0px 10px;
     font-size: 14px;
 }
-
+/*Вертолёт*/
 .helicopter {
     background-image: url(img/helimain.png);
     position: absolute;
@@ -33,15 +33,16 @@ span {
     height: 840px;
     left: -30%;
     top: 100px;
+    z-index: -2;
 }
 .previevBlock {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     top: 25%;
     left: 10%;
 
-    margin-top: 200px;
+    margin: 200px 0px 0px 150px;
+
 
     width: 70%;
     height: 300px;
@@ -52,6 +53,7 @@ width: 887px;
 height: 89px;
 left: 390px;
 top: 386px;
+margin-bottom: 50px;
 
 font-style: normal;
 font-weight: bold;
@@ -72,6 +74,7 @@ color: #FFFFFF;
     left: 614px;
     top: 504px;
     margin-right: 50%;
+    margin-bottom: 50px;
 }
 .reservPlace {
     width: 304px;
@@ -100,4 +103,59 @@ text-align: center;
 
 color: #FFFFFF;
 
+}
+
+/*Наши преимущества блок с одним фото*/
+.advantage {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1000px;
+    left: 10%;
+}
+
+.advantagePhoto {
+    position: absolute;
+    left: 630px;
+    width: 554px;
+    height: 374px;
+    
+}
+.advantageDescription {
+}
+.advantage h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+.advantage p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+.advantageList {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Про отзывы с оценкой*/
+.reviews {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 134px;
+    top: 1455px;
+    border-top: 0.5px solid #C7C7C7;
+    border-bottom: 0.5px solid #C7C7C7;;
+    padding: 30px 0px 30px 0px;
 }
