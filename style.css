@@ -168,7 +168,7 @@ color: #FFFFFF;
     
     position: absolute;
     top: 1600px;
-    left: 150px;
+    left: 100px;
     padding: 0;
 }
 .photoGallery span {
@@ -188,7 +188,7 @@ color: #FFFFFF;
 }
 
 .photoGallery img {
-    margin: 5px;
+    margin: 10px;
 }
 .allphotos {
     position: absolute;
