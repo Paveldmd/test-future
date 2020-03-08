@@ -168,7 +168,7 @@ color: #FFFFFF;
     
     position: absolute;
     top: 1600px;
-    left: 20px;
+    left: 135px;
     padding: 0;
 }
 .photoGallery span {
@@ -210,11 +210,13 @@ color: #FFFFFF;
     position: absolute;
     width: 1139px;
     height: 0px;
-    left: 190px;
-    top: 2123px;
-
     border: 0.5px solid #C7C7C7;
 }
+.b-1 {
+    left: 190px;
+    top: 2123px;
+}
+/*Об организаторе*/
 .aboutUs {
     display: flex;
     position: absolute;
@@ -285,7 +287,6 @@ color: #37373F;
     left: 0px;
     top: 400px;
 
-    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -300,7 +301,6 @@ color: #37373F;
     left: 100px;
     top: 540px;
     
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -308,6 +308,8 @@ color: #37373F;
     
     color: #5286EC;
 }
+
+/*О фотографе*/
 .marinaBlock {
     display: flex;
     position: absolute;
@@ -338,14 +340,12 @@ top: 0;
     left: -20px;
 }
 .marinaList li:first-child {
-    font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
 }
 .marinaList li:nth-child(2) {
-    font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -356,7 +356,7 @@ color: #37373F;
 }
 .marinaList li:last-child {
     text-decoration: none;
-    font-family: Montserrat;
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -364,4 +364,49 @@ line-height: 21px;
 text-align: center;
 
 color: #5286EC;
+}
+.b-2 {
+    left: 190px;
+top: 2790px;
+}
+.timetableBox {
+    display: flex;
+    position: absolute;
+    top: 2900px;
+    left: 190px;
+}
+.timetableName {
+
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+
+color: #37373F;
+}
+.tableList {
+    position: absolute;
+top: 70px;
+left: 0px;
+display: flex;
+width: 650px;
+height: 458px;
+border: 2px solid rgb(194, 194, 194);
+padding: 15px;
+font-size: 18px;
+
+}
+.tableList td {
+    border-bottom: 1px solid lightgrey;
+}
+.button-2 {
+    border: 2px solid #FC9B09;
+    padding: 15px 40px;
+    color: #FC9B09;
+}
+.maps {
+    display: flex;
+    position: relative;
+    top: 2940px;
+
 }
