@@ -6,14 +6,13 @@ body {
 }
 
 /*Шапка сайта с лого и телефоном*/
+
 .header {
-    border: 1px solid red;
 
     display: flex;
     min-height: 80px;
 }
 .header__header-block {
-    border: inherit;
 
 display: flex;
 width: 80%;
@@ -22,19 +21,19 @@ justify-content: space-between;
 align-items: center;
 }
 .header__header-block__header-logo {
-    border: inherit;
 }
 .header__header-block__header-contacts {
-border: inherit;
 
 margin-left: -50%;
 }
 .header__header-block__header-callback {
-    border: inherit;
 }
-/*Вертолёт*/
+
+
+/*Вертолёт*/ 
+
+
 .main__previev {
-    border: 1px solid red;
 
 background-image: url("img/helimain.png");
 background-position: 60% 10%;
@@ -46,7 +45,6 @@ flex-direction: column;
 justify-content: stretch;
 }
 .main__previev__content-block__width-80 {
-    border: inherit;
 
     width: 80%;
     height: 70%;
@@ -57,7 +55,6 @@ justify-content: stretch;
     
 }
 .main__previev__main-text {
-border: inherit;
 
 width: 887px;
 height: 89px;
@@ -70,14 +67,12 @@ color: #FFFFFF;
     color: #FC9B09;
 }
 .main__previev__main-block { 
-    border: inherit;
 
 display: flex;    
 font-size: 30px;
 color: #FFFFFF;
 }
 .main__previev__main-block__text-block {
-border: inherit;
 
 display: flex;
 flex-direction: column;
@@ -87,7 +82,6 @@ margin: 10px 10px;
 color: #ffffff;
 }
 .text-block__text1 {
-border: inherit;
 
 top: 1%;
 left: 2%;
@@ -95,7 +89,7 @@ font-size: 20px;
 color: #ffffff;
 }
 .text-block__text2 {
-    border: inherit;
+
     font-size: 35px;
     color: #ffffff;
 }
@@ -127,66 +121,89 @@ font-weight: 900;
 font-size: 18px;
 color: #FFFFFF;
 }
+*/
+/*Наши преимущества блок с video*/
 
-/*Наши преимущества блок с одним фото*/
-/*
-.advantage {
+.main__advantage {
+display: flex;
+height: 600px;
+}
+.main__advantage__content-block__width-80 {
+    
     display: flex;
     flex-wrap: wrap;
-    left: 10%;
-    top: 20%
+    width: 80%;
+    height: inherit;
+    margin: 5% auto;   
+    justify-content: space-between;
 }
+.main__advantage__advantage-description {
 
-.advantage-video {
-    left: 630px;
-    width: 554px;
-    height: 374px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+width: 60%;
+}
+.advantage-description__head {
+
+width: 50%;    
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+}
+.advantage-description__head__text1 {
+
+margin: 0px;
+font-size: 18px;
+line-height: 26px;
     
 }
-.advantageDescription {
-    display: flex;
-    flex-direction: column;
+.advantage-description__table {
+
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
 }
-.advantageDescription__head {
-    min-width: 20%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 49px;
+.advantage-description__table__table-text {
+
+display: flex;
+flex-direction: column;    
+align-items: flex-start;
+justify-content: space-between;
+list-style: none;
+margin-left: -20px;
+line-height: 26px;
+height: 150px;
 }
-.advantageDescription__description {
-    max-width: 35%;
-    top: 80%;
-    font-style: normal;
-    font-weight: normal;
+.advantage-description__table__table-icons {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.advantage-description__reviews {
+
+    margin: 10px 0px;
+    padding: 20px 0px;
+
     font-size: 18px;
     line-height: 26px;
-    
-}
-.advantageList {
-    top: 100%;
-    list-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-}
-.reviews {
-    display: flex;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    position: absolute;
-    width: 400px;
-    height: 24px;
-    left: 134px;
-    top: 1455px;
     border-top: 0.5px solid #C7C7C7;
-    border-bottom: 0.5px solid #C7C7C7;;
-    padding: 30px 0px 30px 0px;
+    border-bottom: 0.5px solid #C7C7C7;
+    
+}
+.main__advantage__video {
+
+        
 }
 
+
+/*
 .photoGallery {
     display: flex;
     flex-wrap: wrap;
