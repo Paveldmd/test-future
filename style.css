@@ -432,7 +432,7 @@ font-size: 18px;
     padding: 15px 40px;
     color: #FC9B09;
 }
-
+/* карта */
 .main__maps {
     display: flex;
     margin: 3% auto;
@@ -550,7 +550,7 @@ line-height: 25px;
 
 color: #5286EC;
 }
-*/
+/* Подвал */
 .footer-1 {
     height: 80px;
 }
