@@ -121,12 +121,12 @@ font-weight: 900;
 font-size: 18px;
 color: #FFFFFF;
 }
-*/
+
 /*Наши преимущества блок с video*/
 
 .main__advantage {
 display: flex;
-height: 600px;
+height: min-content;
 }
 .main__advantage__content-block__width-80 {
     
@@ -134,7 +134,8 @@ height: 600px;
     flex-wrap: wrap;
     width: 80%;
     height: inherit;
-    margin: 5% auto;   
+    margin: auto; 
+    margin-top: 5%;  
     justify-content: space-between;
 }
 .main__advantage__advantage-description {
@@ -197,67 +198,58 @@ justify-content: space-around;
     border-bottom: 0.5px solid #C7C7C7;
     
 }
-.main__advantage__video {
+.main__advantage__video {       
+}
 
-        
+
+/* фотогалерея */
+.main__photo-gallery {
+height: min-content;
+display: flex;
+align-content: center;
+}
+.main__photo-gallery__content-block__width-80 {
+    display: flex;
+    flex-direction: column;
+    border: inherit;
+    width: 80%;
+    margin: auto;
+}
+.main__photo-gallery__text1 {
+
+margin: 20px 0;    
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+color: #37373F;
+}
+.main__photo-gallery__block-photo {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    justify-content: space-between;
+}
+.main__photo-gallery__block-photo img {
+    margin-top: 15px;
+}
+.main__photo-gallery__text2 {
+    
+    align-self: center;
+    text-align: center;
+margin: 15px 0;
+padding: 30px 0;
+width: 100%;
+height: 19px;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+color: #5286EC;
+border-bottom: 1px solid lightgrey;
 }
 
 
 /*
-.photoGallery {
-    display: flex;
-    flex-wrap: wrap;
-    
-    position: absolute;
-    top: 1600px;
-    left: 135px;
-    padding: 0;
-}
-.photoGallery span {
-    position: absolute;
-    width: 219px;
-    height: 24px;
-    left: 150px;
-    top: -50px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-
-    color: #37373F;
-}
-
-.photoGallery img {
-    margin: 10px;
-}
-.allphotos {
-    position: absolute;
-    width: 166px;
-    height: 19px;
-    left: 671px;
-    top: 2027px;
-    margin-top: 30px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
-
-    color: #5286EC;
-}
-.bottomLine {
-    position: absolute;
-    width: 1139px;
-    height: 0px;
-    border: 0.5px solid #C7C7C7;
-}
-.b-1 {
-    left: 190px;
-    top: 2123px;
-}
 .aboutUs {
     display: flex;
     position: absolute;
