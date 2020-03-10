@@ -1,136 +1,162 @@
 body {
    margin: 0;
     font-size: 11px;
-    /*width: 1900px;*/
+    width: 100%;
+    font-family: Montserrat;
 }
+
 /*Шапка сайта с лого и телефоном*/
 .header {
+    border: 1px solid red;
+
+    display: flex;
+    min-height: 80px;
+}
+.header__header-block {
+    border: inherit;
+
 display: flex;
-
-height: 80px;
+width: 80%;
+margin: auto;
+justify-content: space-between;
+align-items: center;
 }
-
-span {
-    color: #FC9B09;
+.header__header-block__header-logo {
+    border: inherit;
 }
+.header__header-block__header-contacts {
+border: inherit;
 
-.headerLogo {
-    
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px 10px 0px 15%; 
+margin-left: -50%;
 }
-.headerContacts {
-    padding: 30px 10px 0px 10px;
-    font-size: 14px;
+.header__header-block__header-callback {
+    border: inherit;
 }
 /*Вертолёт*/
-.helicopter {
-    background-image: url(img/helimain.png);
-    position: absolute;
-    width: 1850px;
-    height: 840px;
-    left: -30%;
-    top: 100px;
-    z-index: -2;
+.main__previev {
+    border: 1px solid red;
+
+background-image: url("img/helimain.png");
+background-position: 60% 10%;
+width: inherit;
+height: 600px;
+
+display: flex;
+flex-direction: column;
+justify-content: stretch;
 }
-.previevBlock {
+.main__previev__content-block__width-80 {
+    border: inherit;
+
+    width: 80%;
+    height: 70%;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    top: 25%;
-    left: 10%;
-
-    margin: 200px 0px 0px 150px;
-
-
-    width: 70%;
-    height: 300px;
-}
-.photosession {
+    flex-direction: column;
+    justify-content: space-around;
     
+}
+.main__previev__main-text {
+border: inherit;
+
 width: 887px;
 height: 89px;
-left: 390px;
-top: 386px;
-margin-bottom: 50px;
-
-font-style: normal;
 font-weight: bold;
 font-size: 40px;
-line-height: 49px;
-
 color: #FFFFFF;
 }
-.priceBlock {
-    
-    background: #FC9B09;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    font-size: 30px;
-    color: #FFFFFF;
-    width: 224px;
-    height: 96px;
-    left: 614px;
-    top: 504px;
-    margin-right: 50%;
-    margin-bottom: 50px;
-    padding: 20px;
+.main__previev__main-text span {
+    text-decoration: none;
+    color: #FC9B09;
 }
-.reservPlace {
-    width: 304px;
+.main__previev__main-block { 
+    border: inherit;
+
+display: flex;    
+font-size: 30px;
+color: #FFFFFF;
+}
+.main__previev__main-block__text-block {
+border: inherit;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: absolute;
+margin: 10px 10px;
+color: #ffffff;
+}
+.text-block__text1 {
+border: inherit;
+
+top: 1%;
+left: 2%;
+font-size: 20px;
+color: #ffffff;
+}
+.text-block__text2 {
+    border: inherit;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.text-block__text3 {
+    color: #ffffff;
+    position: absolute;
+    margin: 15px 0px auto 150px;
+}
+.text-block__element1 {
+    position: absolute;
+    margin: -4px 10px auto 122px;    
+}
+.main__previev__main-block__button {
+width: 304px;
 height: 68px;
-left: 390px;
-top: 612px;
+display: flex;
+
 
 border: 3px solid #FFFFFF;
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 70px rgba(255, 255, 255, 0.7);
 border-radius: 3px;
-
 }
-.reservPlace p {
-    width: 230px;
-height: 21px;
-left: 427px;
-top: 636px;
-
-font-family: Montserrat;
-font-style: normal;
+.main__previev__main-block__button a {
+margin: auto;
+text-decoration: none;
 font-weight: 900;
 font-size: 18px;
-line-height: 22px;
-text-align: center;
-
 color: #FFFFFF;
-
 }
 
 /*Наши преимущества блок с одним фото*/
+/*
 .advantage {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top: 1000px;
     left: 10%;
+    top: 20%
 }
 
-.advantagePhoto {
-    position: absolute;
+.advantage-video {
     left: 630px;
     width: 554px;
     height: 374px;
     
 }
 .advantageDescription {
+    display: flex;
+    flex-direction: column;
 }
-.advantage h1 {
+.advantageDescription__head {
+    min-width: 20%;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 49px;
 }
-.advantage p {
+.advantageDescription__description {
+    max-width: 35%;
+    top: 80%;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -138,13 +164,13 @@ color: #FFFFFF;
     
 }
 .advantageList {
+    top: 100%;
     list-style: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
-/*Про отзывы с оценкой*/
 .reviews {
     display: flex;
     font-style: normal;
@@ -161,7 +187,6 @@ color: #FFFFFF;
     padding: 30px 0px 30px 0px;
 }
 
-/*Фотографии пакета*/
 .photoGallery {
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +241,6 @@ color: #FFFFFF;
     left: 190px;
     top: 2123px;
 }
-/*Об организаторе*/
 .aboutUs {
     display: flex;
     position: absolute;
@@ -309,7 +333,6 @@ color: #37373F;
     color: #5286EC;
 }
 
-/*О фотографе*/
 .marinaBlock {
     display: flex;
     position: absolute;
@@ -409,4 +432,4 @@ font-size: 18px;
     position: relative;
     top: 2940px;
 
-}
+} */
